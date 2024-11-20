@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: k-streams
+  kafka:
+    bootstrap-servers: localhost:29092,localhost:29093
+    topic:
+      system_type: gms-system-type
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
